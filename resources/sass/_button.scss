@@ -1,0 +1,153 @@
+.btn-primary {
+    background-color: $dark-green;
+    border: 2px solid $dark-green;
+    transition: all ease-out 0.2s;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: 2px solid $dark-green !important;
+        background-color: transparent !important;
+        color: $dark-green !important;
+    }
+}
+
+.btn-outline-primary {
+    border: 2px solid $dark-green;
+    background-color: transparent;
+    color: $dark-green;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $dark-green !important;
+        border: 2px solid $dark-green !important;
+        color: #fff !important;
+        transition: all ease-out 0.2s !important;
+    }
+}
+
+.btn-success {
+    background-color: $green;
+    border: 2px solid $green;
+    transition: all ease-out 0.2s;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: 2px solid $green !important;
+        background-color: transparent !important;
+        color: $green !important;
+    }
+}
+
+.btn-outline-success {
+    border: 2px solid $green !important;
+    background-color: transparent !important;
+    color: $green !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $green !important;
+        border: 2px solid $green !important;
+        color: #fff !important;
+        transition: all ease-out 0.2s !important;
+    }
+}
+
+.btn-danger {
+    background-color: $red;
+    border: 2px solid $red;
+    transition: all ease-out 0.2s;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: 2px solid $red !important;
+        background-color: transparent !important;
+        color: $red !important;
+    }
+}
+
+.btn-outline-danger {
+    border: 2px solid $red;
+    background-color: transparent;
+    color: $red;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $red !important;
+        border: 2px solid $red !important;
+        color: #fff !important;
+        transition: all ease-out 0.2s !important;
+    }
+}
+
+.btn-warning {
+    background-color: $yellow;
+    border: 2px solid $yellow;
+    transition: all ease-out 0.2s;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: 2px solid $yellow !important;
+        background-color: transparent !important;
+    }
+}
+
+.btn-outline-warning {
+    border: 2px solid $yellow;
+    background-color: transparent;
+    color: black;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $yellow !important;
+        border: 2px solid $yellow !important;
+        transition: all ease-out 0.2s !important;
+    }
+}
+
+.btn-info {
+    background-color: $cyan;
+    border: 2px solid $cyan;
+    transition: all ease-out 0.2s;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: 2px solid $cyan !important;
+        background-color: transparent !important;
+    }
+}
+
+.btn-outline-info {
+    border: 2px solid $cyan;
+    background-color: transparent;
+    color: black;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $cyan !important;
+        border: 2px solid $cyan !important;
+        transition: all ease-out 0.2s !important;
+    }
+}
+
+.btn-sm-border {
+    border-width: 2px;
+
+    &:hover {
+        border-width: 2px !important;
+    }
+}
+
+#accordion button {
+    color: $dark-green;
+    text-decoration: none;
+}

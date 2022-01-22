@@ -1,0 +1,21 @@
+// Fonts
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Imports
+@import "global";
+@import "button";
+@import "typography";
+@import "navigation";
+@import "home";
+@import "form";
+@import "table";
+@import "accordion";
+@import "seats";
+@import "card";

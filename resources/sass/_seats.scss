@@ -1,0 +1,38 @@
+.booked {
+    color: red;
+    cursor: default;
+}
+
+.unbooked {
+    color: black;
+    cursor: pointer;
+}
+
+.selected {
+    color: green !important;
+    cursor: pointer;
+}
+
+.seat-container {
+    overflow-x: scroll;
+    min-width: 100%;
+    width: 100%;
+}
+
+.seat-group {
+    width: 100%;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.seat {
+    border: 1px solid #aaa;
+    padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .seat-container {
+        overflow: hidden;
+    }
+}
